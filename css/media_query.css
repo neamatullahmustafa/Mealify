@@ -1,0 +1,128 @@
+@media screen and (max-width:992px) and (min-width:768px) {
+    nav ul {
+        display: none;
+    }
+    html{font-size: 70%;}
+    .gallery .contaner85 {
+        columns: 2 ; 
+     
+     }
+    header .flexr {
+        flex-wrap: wrap-reverse;
+    }
+
+    header .contaner40 {
+        width: 100%;
+    }
+
+    header .homeleft {
+        text-align: center;
+        margin: 40px;
+    }
+
+    header .btn {
+        justify-content: center;
+    }
+
+    .chefs .flexr {
+        flex-wrap: wrap;
+    }
+
+    .gallery .contaner85,
+    .end .flexr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .chefs .contaner33,
+    .gallery .contaner33 {
+        width: 50%;
+    }
+
+    .chefs .contaner85 {
+        padding-bottom: 100px;
+    }
+
+    .contact .form .contaner50 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+    }
+
+    .contact .form input {
+        margin: 5px 0;
+    }
+
+    footer .Social,
+    footer .Touch,footer .Subscribe{
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:768px) and (min-width:0) {
+    nav ul {
+        display: none;
+    }
+    html{font-size: 50%;}
+    header .flexr {
+        flex-wrap: wrap-reverse;
+    }
+
+    header .contaner40 {
+        width: 100%;
+    }
+
+    header .homeleft {
+        text-align: center;
+        margin: 40px;
+    }
+
+    header .btn {
+        justify-content: center;
+    }
+
+    .chefs .flexr {
+        flex-wrap: wrap;
+    }
+
+    .contact .contaner50 {
+        width: 100%;
+    }
+
+    .gallery .contaner85,
+    footer .flexr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .chefs .contaner33,
+    .gallery .contaner33 {
+        width: 100%;
+    }
+
+    .chefs .contaner85 {
+        padding-bottom: 100px;
+    }
+
+    .contact .form .contaner50 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+    }
+
+    .contact .form input {
+        margin: 5px 0;
+    }
+
+    footer .Social,
+    footer .Touch,  footer .Subscribe {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+ 
+}
